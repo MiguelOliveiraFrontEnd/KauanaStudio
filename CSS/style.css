@@ -1,0 +1,630 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color: #ffe7ea;
+    text-align: center;
+    padding-inline: 16px;
+    width: 100vw;
+    height: 100px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+
+header .logo {
+    position: absolute;
+    top: -60px;
+    left: -20px;
+}
+
+header .navegadores {
+    float: right;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    gap: 32px;
+}
+
+header .navegadores a {
+    text-decoration: none;
+    color: #414141;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    margin-left: 5px;
+    margin-right: 70px;
+}
+
+header .navegadores a:hover {
+    transform: scale(1.1);
+    color: #f7bbc2;
+    box-shadow: 10px 10px 10px;
+    border: 1px solid #f7bbc2;
+    border-radius: 20px;
+}
+
+
+main {
+    background: #f8dbde;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main .informacao {
+    background: radial-gradient(circle, #fbafb8, #ffe7ea);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main .imagem img {
+    margin-left: 55%;
+    margin-top: -355px;
+    box-shadow: 10px 10px 10px;
+    border-radius: 95px;
+    background: #414141;
+    border: 1px solid #414141;
+    padding: -100px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.informacao h1 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 55px;
+    color: #000000;
+}
+
+.informacao h2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+.informacao button  {
+    background-color: #f7bbc2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 530px;
+    left: 70px;
+    transition: all 0.3s ease;
+}
+
+.informacao button:hover {
+    background-color: #f7bbc2;
+    color: #414141;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+
+.meio {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #b6b6b6, #ffe7ea);
+    padding: 20px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.meio h1 {
+    font-size: 44px;
+    margin-left: -15px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.meio h2 {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: #414141;
+}
+
+.servico1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-left: -70%;
+    gap: 20px;
+    margin-top: 18px; 
+}
+
+.servico1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.servico1 h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #414141;
+    text-align: center;
+    font-style: italic;
+}
+
+.servico1 button {
+    background-color: #f7bbc2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.servico1 button:hover {
+    background-color: #f7bbc2;
+    color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.servico2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    margin-left: 40%;
+    text-align: center;
+    margin-top: -28%;
+    margin-left: -2%;
+    margin-bottom: 24px; 
+}
+
+.servico2 h2 {
+    font-size: 23px;
+    margin-top: 10px;
+    color: #414141;
+    text-align: center;
+    font-style: italic;
+}
+
+.servico2 img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.servico2 button {
+    background-color: #f7bbc2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.servico2 button:hover {
+    background-color: #f7bbc2;
+    color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.servico3 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    margin-left: 65%;
+    margin-top: -31%;
+    gap: 20px;
+    margin-bottom: 5px;
+}
+
+.servico3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.servico3 h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #414141;
+    text-align: center;
+    font-style: italic;
+}
+
+.servico3 button {
+    background-color: #f7bbc2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    margin-left: 100px;   
+}
+
+.servico3 button:hover {
+    background-color: #f7bbc2;
+    color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.catalogo {
+    margin: 0px;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: -150px;
+}
+
+.catalogo h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+
+.categoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.categoria img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.contato {
+    border: 3px solid #9a9a9a;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-top: 0px;
+    background-color: #ffffff;
+}
+
+.contato h1 {
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.contato h2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contato-info {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape p {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #b6b6b6, #ffe7ea);
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+}
+
+.local {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -40%;
+}
+
+.local2 {
+    text-align: center;
+    margin-top: -340px;
+    margin-left: 25%;
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 0 10px;
+    }
+
+    header {
+        padding: -10%;
+        height: 80px;
+        background-color: #ffe7ea;
+    }
+
+    header .logo {
+        top: -90%;
+        left: -20%;
+        scale: 60%;
+    }
+
+    header .navegadores {
+        margin-top: 30px;
+        font-size: 15px;
+        gap: 16px;
+        margin-left: 31%;
+        margin-right: 10%;
+        display: flex;
+    }
+
+    header .navegadores a {
+        margin-left: -10%;
+        margin-right: 25px;
+        font-size: 10px;
+        padding: 2px 10px;
+    }
+
+    main {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    main .informacao {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .informacao h1 {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+    .informacao h2 {
+        margin-left: -5px;
+        margin-top: 10px;
+        font-size: 9px;
+    }
+
+    .informacao .imagem img {
+        margin-top: -100%;
+        margin-left: 55%;
+        width: 150px;
+        height: 150px;
+    }
+
+    .informacao button {
+        position: absolute;
+        top: 320px;
+        left: 29px;
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .informacao button:hover {
+        transform: scale(1.05);
+        font-size: 10px;
+    }
+
+    .catalogo {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    .catalogo h1 {
+        margin-left: 0px;
+        font-size: 25px;
+    }
+
+    .categoria h2 {
+        font-size: 18px;
+        margin-top: 0px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .categoria {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .categoria img {
+        width: 100%;
+        height: auto;
+    }
+
+    .meio {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .meio h1 {
+        font-size: 30px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .servico1, .servico2, .servico3 {
+        width: 50%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .servico1 img, .servico2 img, .servico3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .servico1 h2, .servico2 h2, .servico3 h2 {
+        font-size: 18px;
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+
+    .servico1 button {
+        font-size: 15px;
+        padding: 5px 5px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .servico2 button {
+        font-size: 15px;
+        padding: 5px 5px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .servico3 button {
+        font-size: 15px;
+        padding: 5px 5px;
+        margin-top: 5px;
+        text-align: center;
+        margin-left: 35px;
+    }
+
+    .contato {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        margin-top: 0px;
+    }
+
+    .contato h1 {
+        margin-left: 10px;
+        margin-top: -10px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .contato h2 {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contato-info {
+        margin-top: 10px;
+        font-size: 15px;
+        text-align: center;
+        color: #000;
+    }
+
+    .local {
+        text-align: center;
+        margin-top: 15px;
+        margin-left: -160px;
+    }
+
+    .local img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .local2 {
+        text-align: center;
+        margin-top: -155px;
+        margin-left: 160px;
+    }
+
+    .local2 img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .rodape p {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .rodape {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+}
