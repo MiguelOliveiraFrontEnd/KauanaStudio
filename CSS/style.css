@@ -404,7 +404,7 @@ main .imagem img {
     margin-left: 25%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) and (min-width: 400px) {
     body {
         font-size: 14px;
         line-height: 1.5;
