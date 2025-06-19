@@ -450,7 +450,7 @@ header .favicon {
     margin-left: 30%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 720px) and (min-width: 300px) {
     body {
         font-size: 14px;
         overflow-x: hidden;
